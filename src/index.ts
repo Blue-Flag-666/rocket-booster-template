@@ -4,14 +4,8 @@ addEventListener('fetch', (event) => {
   const proxy = useProxy();
   proxy.use('/', {
     upstream: {
-      domain: 'www.xvideos.com',
+      domain: 'xfsr.xyz',
       protocol: 'https',
-    },
-    headers: {
-    request: {
-      'host': 'www.xvideos.com',
-      'Host': 'www.xvideos.com',
-      'Sec-Fetch-Site': none,
     },
   });
 
