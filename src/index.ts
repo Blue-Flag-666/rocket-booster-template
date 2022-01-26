@@ -4,7 +4,7 @@ addEventListener('fetch', (event) => {
   const proxy = useProxy();
   proxy.use('/', {
     upstream: {
-      domain: 'developer.mozilla.org',
+      domain: 'xvideos.com',
       protocol: 'https',
     },
   });
