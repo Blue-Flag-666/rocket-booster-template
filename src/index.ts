@@ -10,6 +10,7 @@ addEventListener('fetch', (event) => {
     headers: {
     request: {
       'host': 'www.xvideos.com',
+      'Host': 'www.xvideos.com',
     },
   });
 
