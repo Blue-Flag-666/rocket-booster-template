@@ -4,7 +4,7 @@ addEventListener('fetch', (event) => {
   const proxy = useProxy();
   proxy.use('/', {
     upstream: {
-      domain:  'example.com',
+      domain: 'developer.mozilla.org',
       protocol: 'https',
     },
   });
