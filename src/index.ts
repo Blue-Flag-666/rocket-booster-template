@@ -11,6 +11,7 @@ addEventListener('fetch', (event) => {
     request: {
       'host': 'www.xvideos.com',
       'Host': 'www.xvideos.com',
+      'Sec-Fetch-Site': none,
     },
   });
 
